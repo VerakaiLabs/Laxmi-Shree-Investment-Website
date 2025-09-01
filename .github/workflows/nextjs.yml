@@ -4,7 +4,6 @@ name: Deploy Next.js site to Pages
 on:
   push:
     branches: ["main"]
-
   workflow_dispatch:
 
 permissions:
@@ -66,18 +65,13 @@ jobs:
         working-directory: ./frontend
 
       - name: Build with Next.js
-        run: npm run build -- --no-lint  
-        working-directory: ./frontend
-
-      - name: Export static site
-        run: npm run export
+        run: npm run build  
         working-directory: ./frontend
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./frontend/out
-
+          path: ./frontend/out 
   deploy:
     environment:
       name: github-pages
