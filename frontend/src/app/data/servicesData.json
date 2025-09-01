@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Primary Share Investments",
+    "description": "We participate in IPOs, investing early in companies with strong potential and long-term value.",
+    "variant": "light"
+  },
+  {
+    "title": "Secondary Market Trading",
+    "description": "We buy and sell listed stocks strategically to maximize portfolio performance based on market trends.",
+    "variant": "purple"
+  },
+  {
+    "title": "Right Share Investments",
+    "description": "We capitalize on right share offerings to increase our holdings in high-potential companies.",
+    "variant": "light"
+  },
+  {
+    "title": "Portfolio Management",
+    "description": "Our experts manage and optimize investment portfolios to align with risk profiles and financial goals.",
+    "variant": "purple"
+  },
+  {
+    "title": "Market Research & Analysis",
+    "description": "We conduct in-depth research and provide insights to guide smart investment decisions.",
+    "variant": "light"
+  },
+  {
+    "title": "Risk Assessment & Advisory",
+    "description": "We evaluate market and company risks, offering guidance to ensure informed, confident investing.",
+    "variant": "purple"
+  }
+]

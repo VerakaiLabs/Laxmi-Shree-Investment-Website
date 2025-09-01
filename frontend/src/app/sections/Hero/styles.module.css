@@ -1,0 +1,60 @@
+.hero_background_container {
+  background: url("../../assets/images/HeroMobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 4rem;
+}
+
+/* sm: 27.5rem (440px) */
+@media screen and (max-width: 27.4rem) {
+  .hero_background_container {
+    background: url("../../assets/images/HeroMobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+
+/* md: 48rem (768px) */
+@media screen and (min-width: 27.5rem) and (max-width: 47.9rem) {
+  .hero_background_container {
+    background: url("../../assets/images/HeroMobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+
+/* lg: 80rem (1280px) */
+@media screen and (min-width: 48rem) and (max-width: 79.9rem) {
+  .hero_background_container {
+    background: url("../../assets/images/HeroDesktop.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left 3rem;
+  }
+}
+
+/* xl: 96rem (1536px) */
+@media screen and (min-width: 80rem) and (max-width: 95.9rem) {
+  .hero_background_container {
+    background: url("../../assets/images/HeroDesktop.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom left 4rem;
+  }
+}
+
+/* 2xl: 120rem (1920px) and above */
+@media screen and (min-width: 96rem) {
+  .hero_background_container {
+    background: url("../../assets/images/HeroDesktop.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom left 5rem;
+  }
+}

@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+
+@layer base {
+  
+ @font-face {
+    font-family: 'clashGrotesk-Semibold';
+    src: url('assets/fonts/ClashGrotesk/ClashGrotesk-Semibold.woff2') format('woff2');
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'generalSans-medium';
+    src: url('assets/fonts//GeneralSans/GeneralSans-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'generalSans-Semibold';
+    src: url('assets/fonts//GeneralSans/GeneralSans-Semibold.woff2') format('woff2');
+    font-style: normal;
+    font-display: swap;
+  }
+  html {
+    font-size: 16px;
+    background-color: #FFFFFF;
+  }
+  
+   body {
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #FFFFFF;
+    font-family: 'generalSans-medium', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'clashGrotesk-Semibold', sans-serif; 
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+

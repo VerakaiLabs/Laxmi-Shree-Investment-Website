@@ -1,0 +1,88 @@
+.carouselContainer {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.carouselTrack {
+  display: flex;
+  animation: infinite-scroll 10s linear infinite; /* Much faster - 25s instead of 120s */
+  width: max-content; /* Let width be determined by content */
+}
+
+.carouselItem {
+  flex-shrink: 0;
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 4rem;
+  height: 4rem;
+}
+
+.carouselItem img {
+  width: 2.3rem !important;
+  height: 2.3rem !important;
+  object-fit: contain;
+}
+
+/* sm: 27.5rem (440px) */
+@media screen and (min-width: 27.5rem) {
+  .carouselItem {
+    margin: 0 1.125rem;
+    min-width: 4.5rem;
+    height: 4.5rem;
+  }
+  
+  .carouselItem img {
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+  }
+}
+
+/* md: 48rem (768px) */
+@media screen and (min-width: 48rem) {
+  .carouselItem {
+    margin: 0 1.25rem;
+    min-width: 5rem;
+    height: 5rem;
+  }
+  
+  .carouselItem img {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+}
+
+/* lg: 80rem (1280px) */
+@media screen and (min-width: 80rem) {
+  .carouselItem {
+    margin: 0 1.5rem;
+    min-width: 5.5rem;
+    height: 5.5rem;
+  }
+  
+  .carouselItem img {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+}
+
+/* xl: 96rem (1536px) */
+@media screen and (min-width: 96rem) {
+  .carouselItem {
+    margin: 0 1.875rem;
+    min-width: 6rem;
+    height: 6rem;
+  }
+  
+  .carouselItem img {
+    width: 3.75rem !important;
+    height: 3.75rem !important;
+  }
+}
+
+@keyframes infinite-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

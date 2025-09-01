@@ -1,0 +1,16 @@
+{
+  "portfolioCompanies": [
+    {
+      "name": "Portfolio Company 1",
+      "path": "/carousel/image1.png"
+    },
+    {
+      "name": "Portfolio Company 2", 
+      "path": "/carousel/image2.png"
+    },
+    {
+      "name": "Portfolio Company 3",
+      "path": "/carousel/image3.png"
+    }
+  ]
+}

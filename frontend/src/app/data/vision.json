@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "icon": "../assets/icons/RnDIcon.svg",
+    "title": "Research and development",
+    "description": "We Pursue Continuous Innovation Through Rigorous Research, Delivering Sustainable And Long-Term Growth.",
+    "variant": "purple"
+  },
+  {
+    "id": 2,
+    "icon": "../assets/icons/LongTermIcon.svg",
+    "title": "long-term perspective",
+    "description": "We don't chase quick wins. Our strategies are built for sustainable growth, helping you thrive today, tomorrow, and decades ahead.",
+    "variant": "default"
+  },
+  {
+    "id": 3,
+    "icon": "../assets/icons/AccountabilityIcon.svg",
+    "title": "Accountability",
+    "description": "We take full ownership of every decision and outcome, ensuring you receive consistent updates and honest performance reviews — always.",
+    "variant": "purple"
+  },
+  {
+    "id": 4,
+    "icon": "../assets/icons/ClientCenteredIcon.svg",
+    "title": "Client-Centered Approach",
+    "description": "your goals are our priority. We craft personalized investment strategies that align with your unique vision and financial aspirations.",
+    "variant": "default"
+  },
+  {
+    "id": 5,
+    "icon": "../assets/icons/IntregrityIcon.svg",
+    "title": "Integrity & Transparency",
+    "description": "We uphold the highest ethical standards, ensuring trust and accountability in all dealings.",
+    "variant": "purple"
+  },
+  {
+    "id": 6,
+    "icon": "../assets/icons/DataDrivenIcon.svg",
+    "title": "Data driven Decision",
+    "description": "Our insights are powered by real-time data and rigorous analysis — turning numbers into smart, confident investment moves.",
+    "variant": "default"
+  }
+]
