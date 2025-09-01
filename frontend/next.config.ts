@@ -1,14 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',              
-  images: { unoptimized: true }, 
-  eslint: {
-    ignoreDuringBuilds: true, 
-  },
-
-  basePath: process.env.NODE_ENV === 'production' ? '/Laxmi-Shree-Investment-Website' : '',
+  output: 'export',
+  images: { unoptimized: true },
+  basePath: '/Laxmi-Shree-Investment-Website',
   assetPrefix: '/Laxmi-Shree-Investment-Website',
-
+  eslint: { ignoreDuringBuilds: true }, // optional
 };
 
 module.exports = nextConfig;
