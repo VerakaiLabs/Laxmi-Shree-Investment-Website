@@ -7,6 +7,8 @@ const nextConfig = {
   },
 
   basePath: process.env.NODE_ENV === 'production' ? '/Laxmi-Shree-Investment-Website' : '',
+  assetPrefix: '/Laxmi-Shree-Investment-Website',
+
 };
 
 module.exports = nextConfig;
