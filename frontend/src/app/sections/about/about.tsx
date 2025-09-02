@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import styles from './styles.module.css';
 
 

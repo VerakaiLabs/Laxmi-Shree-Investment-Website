@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+
+
 import ServiceCard from "../components/servicesCard";
 import servicesData from "../data/servicesData.json";
 export const runtime = "edge";

@@ -1,4 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
+
+
 import TeamCard from "../components/TeamCard";
+export const runtime = "edge";
 
 const teamMembers = [
   {

@@ -9,6 +9,8 @@ import LogoCarousel from "./sections/Carousel/carousel"
 import FounderCard from"./components/founderMessageCard"
 import MessageFromOurFounderPage from "./sections/FounderMessage/founderMessagePage"
 import InvestmentsSection from "./sections/Investment/investmentSection"
+export const runtime = "edge";
+
 export default function Main(){
   return(
     <div>

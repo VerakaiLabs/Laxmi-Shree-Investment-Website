@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import ContactButton from "../components/contactButton";
 export const runtime = "edge";
 export default function ContactCTASection() {

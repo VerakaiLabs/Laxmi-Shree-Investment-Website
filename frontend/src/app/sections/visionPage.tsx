@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+
+
 import VisionCard from "@/app/components/Vision";
 import visionData from "@/app/data/vision.json";
 import Image from "next/image";
