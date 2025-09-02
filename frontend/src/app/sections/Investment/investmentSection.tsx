@@ -2,7 +2,7 @@
 import { useState } from "react";
 import InvestmentCard from "@/app/components/InvestmentCard";
 import CTAButton from "@/app/components/InvestmentButton";
-
+export const runtime = "edge";
 interface Investment {
   id: number;
   title: string;

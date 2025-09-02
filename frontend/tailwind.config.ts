@@ -7,9 +7,9 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  
   ],
   theme: {
-    // Override default screens to be mobile-first
    screens: {
       sm: "27.5rem",      // 576px
       md: "48rem",        // 768px

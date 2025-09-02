@@ -1,5 +1,7 @@
 import styles from './styles.module.css';
 
+
+export const runtime = "edge";
 export default function AboutUs() {
   return (
     <section className="px-[1.4rem] mb-[4rem] md:px-[2.5rem] lg:px-[4rem] xl:px-[5rem]">

@@ -1,5 +1,5 @@
 import ContactButton from "../components/contactButton";
-
+export const runtime = "edge";
 export default function ContactCTASection() {
   return (
     <section 

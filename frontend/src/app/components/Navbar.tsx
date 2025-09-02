@@ -4,6 +4,9 @@ import Image from "next/image";
 import LogoSVG from "@/app/assets/icons/MainLogo.svg";
 import DropdownButton from "@/app/assets/icons/DropdownButton.svg";
 import ContactButton from "./contactButton";
+
+export const runtime = "edge";
+
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);

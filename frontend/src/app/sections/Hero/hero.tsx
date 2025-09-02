@@ -5,7 +5,7 @@ import wordsData from "@/app/data/heroData.json"
 import ContactButton from "@/app/components/contactButton";
 import Navbar from "@/app/components/Navbar";
 import styles from "./styles.module.css";
-
+export const runtime = "edge";
 export default function HeroPage(){
     const typewriterText = useTypewriter(wordsData, 50, 30, 600);
 
