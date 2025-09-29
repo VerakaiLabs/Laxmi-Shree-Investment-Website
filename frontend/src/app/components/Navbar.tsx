@@ -16,13 +16,13 @@ export default function Navbar() {
   const router = useRouter();
 
   const navigationItems = [
-    { name: "Home", href: "/", isSPA: true },
-    { name: "About", href: "/about", isSPA: true },
-    { name: "Investments", href: "/investments", isSPA: true },
-    { name: "Team", href: "/Team", isSPA: false },
-    { name: "Gallery", href: "/gallery", isSPA: false },
-    { name: "Notice", href: "/news", isSPA: false }
-  ];
+  { name: "Home", href: "/", isSPA: true },
+  { name: "About", href: "/about", isSPA: true },
+  { name: "Investments", href: "/investments", isSPA: true },
+  { name: "Team", href: "/team", isSPA: false }, // Changed from "/Team" to "/team"
+  { name: "Gallery", href: "/gallery", isSPA: false },
+  { name: "Notice", href: "/news", isSPA: false }
+];
 
   const handleNavigation = (item: typeof navigationItems[0]) => {
     if (pathname === "/" && item.isSPA) {
