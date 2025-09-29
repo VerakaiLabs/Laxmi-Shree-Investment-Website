@@ -6,8 +6,9 @@
 
 .carouselTrack {
   display: flex;
-  animation: infinite-scroll 10s linear infinite; /* Much faster - 25s instead of 120s */
-  width: max-content; /* Let width be determined by content */
+  animation: infinite-scroll 8s linear infinite;
+  width: max-content;
+  will-change: transform;
 }
 
 .carouselItem {
@@ -82,7 +83,25 @@
   }
 }
 
+/* 2xl: 120rem (1920px) and above */
+@media screen and (min-width: 120rem) {
+  .carouselItem {
+    margin: 0 2rem;
+    min-width: 7rem;
+    height: 7rem;
+  }
+  
+  .carouselItem img {
+    width: 4.5rem !important;
+    height: 4.5rem !important;
+  }
+}
+
 @keyframes infinite-scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% { 
+    transform: translateX(0); 
+  }
+  100% { 
+    transform: translateX(-33.333%); 
+  }
 }

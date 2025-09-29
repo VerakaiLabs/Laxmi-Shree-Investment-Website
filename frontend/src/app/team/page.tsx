@@ -2,6 +2,7 @@
 
 
 import TeamCard from "../components/TeamCard";
+import Navbar from "../components/Navbar";
 export const runtime = "edge";
 
 const teamMembers = [
@@ -19,11 +20,20 @@ const teamMembers = [
     emailUrl: "priya@company.com",
     linkedinUrl: "https://linkedin.com/in/priyasingh"
   },
+  {
+    name: "Priya Singh",
+    position: "CTO",
+    imageUrl: "founders/laxmibhattarai.png",
+    emailUrl: "priya@company.com",
+    linkedinUrl: "https://linkedin.com/in/priyasingh"
+  },
   // Add more team members as needed
 ];
 
 export default function TeamPage() {
   return (
+    <>
+    <Navbar/>
     <section className="px-4 py-12 md:px-8 lg:px-16">
       <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Our Leadership Team</h1>
       <div className="flex flex-wrap justify-center gap-8">
@@ -39,5 +49,6 @@ export default function TeamPage() {
         ))}
       </div>
     </section>
+    </>
   );
 }

@@ -1,5 +1,5 @@
 import InvestmentCompanyCard from "../components/InvestmentPageCard";
-
+import Navbar from "../components/Navbar";
 const investments = [
   {
     logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/24168a900ce3df446d4333496333e67a596259e5?width=597",
@@ -26,6 +26,8 @@ const investments = [
 
 export default function InvestmentsPage() {
   return (
+    <>
+    <Navbar/>
     <section className="px-4 py-12 md:px-8 lg:px-16">
       <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Our Investments</h1>
       <div className="flex flex-wrap justify-center gap-8">
@@ -41,5 +43,6 @@ export default function InvestmentsPage() {
         ))}
       </div>
     </section>
+    </>
   );
 }

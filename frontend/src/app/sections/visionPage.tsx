@@ -36,14 +36,14 @@ export default function VisionPage() {
   }
 
   return (
-    <section className="px-[1.4rem] py-[4rem] mb-[4rem] md:px-[2.5rem] lg:px-[4rem] xl:px-[5rem]">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col items-center gap-[2.5rem] md:gap-[3rem] lg:gap-[3.5rem]">
-          <h1 className="text-center text-[#9D29C6] text-[1.875rem] md:text-[2.25rem] lg:text-[2.5rem] font-semibold leading-tight capitalize">
+    <section className="px-[1.4rem] py-[4rem] mb-[4rem] md:px-[2.5rem] lg:px-[4rem] xl:px-[5rem] 2xl:px-[8rem]">
+      <div className="max-w-7xl mx-auto 2xl:max-w-[90rem]">
+        <div className="flex flex-col items-center gap-[2.5rem] md:gap-[3rem] lg:gap-[3.5rem] 2xl:gap-[4rem]">
+          <h1 className="text-center text-[#9D29C6] text-[1.875rem] md:text-[2.25rem] lg:text-[2.5rem] 2xl:text-[3rem] font-semibold leading-tight capitalize">
             Our Vision & Mission
           </h1>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[1.5rem] md:gap-[2rem] lg:gap-[2.5rem] max-w-6xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[1.5rem] md:gap-[2rem] lg:gap-[2.5rem] 2xl:gap-[3rem] max-w-6xl 2xl:max-w-[90rem]">
             {alternatingItems.map((item) => (
               <VisionCard
                 key={item.id}

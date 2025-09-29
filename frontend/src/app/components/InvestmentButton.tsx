@@ -15,17 +15,17 @@ export default function CTAButton({
   size = "md",
   className = "" 
 }: CTAButtonProps) {
-  const baseClasses = "flex justify-center items-center gap-2.5 rounded-lg font-medium transition-colors";
+  const baseClasses = "flex justify-center items-center gap-2.5 md:gap-3 lg:gap-3.5 xl:gap-4 2xl:gap-5 rounded-lg md:rounded-xl lg:rounded-xl xl:rounded-2xl 2xl:rounded-2xl font-medium transition-colors";
   
   const variantClasses = {
-    outlined: "border border-[#5E2D91] bg-transparent text-[#35115F] hover:bg-[#DC9320] hover:text-white hover:border-none",
+    outlined: "border border-[#5E2D91] md:border-2 lg:border-2 xl:border-2 2xl:border-2 bg-transparent text-[#35115F] hover:bg-[#DC9320] hover:text-white hover:border-none",
     filled: "bg-[#DC9320] text-white border-none hover:bg-[#C8851C]"
   };
   
   const sizeClasses = {
-    sm: "px-4 py-2 text-sm",
-    md: "px-6 py-4 text-base md:text-lg",
-    lg: "px-8 py-4 text-lg md:text-xl"
+    sm: "px-4 py-2 text-sm md:px-5 md:py-2.5 md:text-sm lg:px-5 lg:py-2.5 lg:text-base xl:px-6 xl:py-3 xl:text-base 2xl:px-7 2xl:py-3.5 2xl:text-lg",
+    md: "px-6 py-4 text-base md:px-7 md:py-4.5 md:text-lg lg:px-8 lg:py-5 lg:text-lg xl:px-9 xl:py-5.5 xl:text-xl 2xl:px-12 2xl:py-6 2xl:text-2xl",
+    lg: "px-8 py-4 text-lg md:px-9 md:py-4.5 md:text-xl lg:px-10 lg:py-5 lg:text-xl xl:px-11 xl:py-5.5 xl:text-2xl 2xl:px-14 2xl:py-7 2xl:text-3xl"
   };
   
   const classes = `${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;

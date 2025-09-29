@@ -14,7 +14,7 @@ export default function ContactCTASection() {
         <div className="flex flex-col items-center gap-9 lg:gap-4 xl:gap-4 2xl:gap-4">
           {/* Nepali Text */}
           <div className="w-full max-w-[394px] sm:max-w-[500px] md:max-w-[650px] lg:max-w-[800px] xl:max-w-[900px] 2xl:max-w-[1000px] 3xl:max-w-[1100px] 4xl:max-w-[1200px] ">
-            <p className="text-white text-center text-[1rem] font-semibold leading-[160%]">
+            <p className="text-white text-center text-[1rem] font-semibold leading-[160%] 2xl:text-[1.6rem]">
               दीर्घकालीन लगानीसम्बन्धी थप सहयोगको लागि, कृपया निःसंकोच सम्पर्क गर्नुहोस्। तपाईंको साथ र समर्थनका लागि हामी सधैं तयार छौं।
             </p>
           </div>

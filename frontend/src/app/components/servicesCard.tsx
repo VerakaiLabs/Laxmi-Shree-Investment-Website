@@ -29,7 +29,7 @@ function ServiceCard({ title, description, variant = "light", className = "" }: 
         </h3>
 
         <p className={`
-          text-base text-justify font-medium leading-[140%] capitalize w-full
+          text-base text-justify font-medium leading-[140%] capitalize w-full 
           ${isLight ? "text-[#421855]" : "text-[#F8F6FF]"}
         `}>
           {description}

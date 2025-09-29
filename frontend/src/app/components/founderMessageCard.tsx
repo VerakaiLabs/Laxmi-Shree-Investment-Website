@@ -25,19 +25,19 @@ export default function FounderCard({ founderId = 1, customData }: FounderCardPr
     }
 
     return (
-<section className="flex flex-col px-[1.4rem] gap-[2rem] md:px-[2.5rem] md:gap-[2.5rem] lg:flex-row lg:items-stretch lg:px-[3rem] lg:gap-[3rem] xl:px-[4rem] xl:gap-[4rem] xl:w-[60rem] xl:mx-auto xl:rounded-[1.25rem] xl:border-[.5px] xl:border-[#5E2D91] xl:p-[2.5rem] ">         
+<section className="flex flex-col px-[1.4rem] gap-[2rem] md:px-[2.5rem] md:gap-[2.5rem] lg:flex-row lg:items-stretch lg:px-[3rem] lg:gap-[3rem] xl:px-[4rem] xl:gap-[4rem] xl:w-[60rem]  xl:mx-auto xl:rounded-[1.25rem] xl:border-[.5px] xl:border-[#5E2D91] xl:p-[2.5rem] 2xl:w-[80rem] 2xl:gap-[5rem] 2xl:p-[3.5rem]">         
        <div className="flex justify-center items-center lg:justify-start lg:flex-shrink-0">
                 <Image
                     src={founder.imagePath}
                     alt={founder.name}
                     width={200}
                     height={250}
-                    className="w-[200px] h-[250px] md:w-[220px] md:h-[275px] lg:w-[320px] lg:h-full xl:w-[380px] object-cover rounded-[1.25rem] lg:rounded-lg border-[1.5px] border-[#67209D] lg:border-none"
+                    className="w-[200px] h-[250px] md:w-[220px] md:h-[275px] lg:w-[320px] lg:h-full xl:w-[380px] 2xl:w-[450px] object-cover rounded-[1.25rem] lg:rounded-lg border-[1.5px] border-[#67209D] lg:border-none"
                 />
             </div>
 
             {/* Content Container */}
-            <div className="flex flex-col gap-[1rem] md:gap-[1.25rem] lg:gap-[1.5rem] xl:gap-[1.75rem] lg:flex-1">
+            <div className="flex flex-col gap-[1rem] md:gap-[1.25rem] lg:gap-[1.5rem] xl:gap-[1.75rem] 2xl:gap-[2rem] lg:flex-1">
                 {/* Opening Quote */}
                 <div className="flex justify-start">
                     <Image
@@ -45,21 +45,21 @@ export default function FounderCard({ founderId = 1, customData }: FounderCardPr
                         alt="Opening Quote"
                         width={40}
                         height={28}
-                        className="w-[40px] h-[28px] md:w-[45px] md:h-[31px] lg:w-[50px] lg:h-[34px] xl:w-[55px] xl:h-[37px]"
+                        className="w-[40px] h-[28px] md:w-[45px] md:h-[31px] lg:w-[50px] lg:h-[34px] xl:w-[55px] xl:h-[37px] 2xl:w-[65px] 2xl:h-[45px]"
                     />
                 </div>
 
                 {/* Message */}
-                <p className="text-[#5E2D91] text-[1rem] md:text-[1.1rem] lg:text-[1.15rem] xl:text-[1rem] leading-relaxed md:leading-relaxed lg:leading-loose text-justify">
+                <p className="text-[#5E2D91] text-[1rem] md:text-[1.1rem] lg:text-[1.15rem] xl:text-[1rem] 2xl:text-[1.5rem] leading-relaxed md:leading-relaxed lg:leading-loose 2xl:leading-[170%] text-justify">
                     {founder.message}
                 </p>
 
                 {/* Founder Info */}
-                <div className="mt-[1rem] md:mt-[1.25rem] lg:mt-[1.5rem] xl:mt-[.2rem]">
-                    <h4 className="text-[#9D29C6] text-[1.35rem] md:text-[1.45rem] lg:text-[1.55rem] xl:text-[1rem] font-semibold ">
+                <div className="mt-[1rem] md:mt-[1.25rem] lg:mt-[1.5rem] xl:mt-[.2rem] 2xl:mt-[1rem]">
+                    <h4 className="text-[#9D29C6] text-[1.35rem] md:text-[1.45rem] lg:text-[1.55rem] xl:text-[1rem] 2xl:text-[2rem] font-semibold ">
                         {founder.name}
                     </h4>
-                    <p className="text-[#5E2D91] text-[1rem] md:text-[1.1rem] lg:text-[1.15rem] xl:text-[1rem] font-medium">
+                    <p className="text-[#5E2D91] text-[1rem] md:text-[1.1rem] lg:text-[1.15rem] xl:text-[1rem] 2xl:text-[1.6rem] font-medium">
                         {founder.position}
                     </p>
                 </div>
@@ -71,7 +71,7 @@ export default function FounderCard({ founderId = 1, customData }: FounderCardPr
                         alt="Closing Quote"
                         width={40}
                         height={28}
-                        className="w-[40px] h-[28px] md:w-[45px] md:h-[31px] lg:w-[50px] lg:h-[34px] xl:w-[55px] "
+                        className="w-[40px] h-[28px] md:w-[45px] md:h-[31px] lg:w-[50px] lg:h-[34px] xl:w-[55px] 2xl:w-[65px] 2xl:h-[45px]"
                     />
                 </div>
             </div>
