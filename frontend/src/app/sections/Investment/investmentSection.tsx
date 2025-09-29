@@ -96,7 +96,7 @@ export default function InvestmentsSection() {
         <div className="flex flex-col items-center gap-10">
           {/* Title */}
           <div className="text-center">
-            <h2 className="text-[#9D29C6] text-2xl md:text-4xl font-semibold leading-[140%] capitalize 2xl:text-[3rem]">
+            <h2 className="text-[#9D29C6] text-2xl md:text-4xl font-semibold leading-[140%] capitalize 3xl:text-[3rem]">
               Our Investments
             </h2>
           </div>

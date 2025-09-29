@@ -15,7 +15,7 @@ export default function LogoCarousel() {
     <section className="w-full mb-[4rem] flex flex-col gap-[1.4rem]" >
       
       <div className="text-center mb-[1rem] px-[1.4rem]">
-        <h2 className="text-[#9D29C6] text-[1.875rem] font-semibold lg:text-[2.25rem] xl:text-[2.5rem] 2xl:text-[3rem]">
+        <h2 className="text-[#9D29C6] text-[1.875rem] font-semibold lg:text-[2.25rem] xl:text-[2.5rem] 3xl:text-[3rem]">
           Trusted By Great Companies
         </h2>
       </div>

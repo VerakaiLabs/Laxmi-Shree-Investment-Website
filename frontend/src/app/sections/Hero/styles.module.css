@@ -50,7 +50,7 @@
   }
 }
 
-/* 2xl: 120rem (1920px) and above */
+/* 3xl: 120rem (1920px) and above */
 @media screen and (min-width: 96rem) {
   .hero_background_container {
     background: url("../../assets/images/HeroDesktop.svg");

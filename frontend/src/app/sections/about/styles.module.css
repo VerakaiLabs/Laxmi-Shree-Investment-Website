@@ -38,7 +38,7 @@
   }
 }
 
-/* 2xl: 96rem (1536px) and above */
+/* 3xl: 96rem (1536px) and above */
 @media screen and (min-width: 96rem) {
   .about_text_container {
     background-image: url("../../assets/icons/AboutSectionBackgroundLogo.svg");

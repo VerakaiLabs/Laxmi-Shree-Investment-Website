@@ -12,7 +12,7 @@ export default function ServicesPage() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center gap-[2.5rem]">
           {/* Title */}
-          <h1 className="text-center text-[#9D29C6] text-[1.875rem] md:text-[2.25rem] font-semibold leading-tight capitalize 2xl:text-[3rem]">
+          <h1 className="text-center text-[#9D29C6] text-[1.875rem] md:text-[2.25rem] font-semibold leading-tight capitalize 3xl:text-[3rem]">
             Our Services
           </h1>
           

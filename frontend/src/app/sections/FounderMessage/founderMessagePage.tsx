@@ -106,7 +106,7 @@ export default function MessageFromOurFounderPage(){
   return (
     <section className="w-full px-[1.4rem] py-[2rem]">
       {/* Title */}
-      <h1 className="text-center text-[#9D29C6] text-[1.875rem] md:text-[2.25rem] font-semibold leading-tight capitalize mb-[2rem] 2xl:text-[3rem]">
+      <h1 className="text-center text-[#9D29C6] text-[1.875rem] md:text-[2.25rem] font-semibold leading-tight capitalize mb-[2rem] 3xl:text-[3rem]">
         Message From Our Founders
       </h1>
 
