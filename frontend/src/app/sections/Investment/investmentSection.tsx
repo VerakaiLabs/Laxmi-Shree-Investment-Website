@@ -163,7 +163,7 @@ export default function InvestmentsSection() {
 
           {/* CTA Button */}
           <CTAButton 
-            href="/investments" 
+            href="/Investments" 
             variant="outlined"
             size="lg"
             className=""
