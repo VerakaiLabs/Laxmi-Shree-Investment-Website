@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://laxmishreeinvestment.com"), // Replace with your actual domain
+  metadataBase: new URL("https://laxmishreeinvestment.com"),
   title: {
     template: "%s | Laxmi Shree Investment - Trusted Investment Solutions",
     default: "Laxmi Shree Investment - Trusted Investment Solutions in Nepal",
@@ -52,33 +52,21 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://laxmishreeinvestment.com", // Replace with your actual domain
+    url: "https://laxmishreeinvestment.com",
     siteName: "Laxmi Shree Investment",
     title: "Laxmi Shree Investment - Trusted Investment Solutions in Nepal",
     description: "Nepal's leading investment company providing comprehensive financial solutions, portfolio management, and wealth building services. Expert guidance for your financial growth.",
     images: [
       {
-        url: "/og-image.jpg", // Create this image (1200x630px recommended)
-        width: 1200,
+        url: "/logo.svg", 
         height: 630,
         alt: "Laxmi Shree Investment - Financial Services",
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Laxmi Shree Investment - Trusted Investment Solutions",
-    description: "Nepal's leading investment company providing comprehensive financial solutions and wealth management services.",
-    images: ["/og-image.jpg"],
-    creator: "@laxmishreeinv", // Replace with your actual Twitter handle
-  },
   alternates: {
-    canonical: "https://laxmishreeinvestment.com", // Replace with your actual domain
+    canonical: "https://laxmishreeinvestment.com",
   },
-  verification: {
-    google: "your-google-verification-code", // Add your Google Search Console verification code
-  },
-  category: "finance",
 };
 
 export default function RootLayout({
@@ -89,7 +77,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Favicon */}
+        {/* Favicon - these files should be in public/ folder */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -97,7 +85,7 @@ export default function RootLayout({
         
         {/* Additional SEO meta tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#DC9320" />
+        <meta name="theme-color" content="#35115F" />
         <meta name="format-detection" content="telephone=no" />
         
         {/* Schema.org structured data */}
@@ -111,15 +99,15 @@ export default function RootLayout({
               "name": "Laxmi Shree Investment",
               "description": "Leading investment company in Nepal providing comprehensive financial solutions and wealth management services.",
               "url": "https://laxmishreeinvestment.com",
-              "logo": "https://laxmishreeinvestment.com/logo.png",
+              "logo": "https://laxmishreeinvestment.com/logo.svg", 
               "address": {
                 "@type": "PostalAddress",
                 "addressCountry": "NP",
-                "addressLocality": "Kathmandu", // Update with your city
-                "addressRegion": "Bagmati", // Update with your region
+                "addressLocality": "Kathmandu",
+                "addressRegion": "Bagmati",
               },
               "sameAs": [
-                "https://www.facebook.com/laxmishreeinvestment", // Add your social media
+                "https://www.facebook.com/laxmishreeinvestment",
                 "https://www.linkedin.com/company/laxmishreeinvestment",
                 "https://twitter.com/laxmishreeinv"
               ],
@@ -133,7 +121,7 @@ export default function RootLayout({
         <main>{children}</main>
         
         {/* Google Analytics - Add your GA4 tracking ID */}
-        <Script
+        {/* <Script
           src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"
           strategy="afterInteractive"
         />
@@ -144,7 +132,7 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', 'GA_TRACKING_ID');
           `}
-        </Script>
+        </Script> */}
       </body>
     </html>
   );
