@@ -8,7 +8,7 @@ export default function ContactButton() {
   const router = useRouter();
 
   const handleContactClick = () => {
-    router.push('/contact');
+    router.push('/Contact');
   };
 
   return (

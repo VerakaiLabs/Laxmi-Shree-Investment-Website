@@ -7,7 +7,7 @@ export const runtime = "edge";
 
 const ContactDetails = () => (
   <div className="w-[300px] h-[267px] flex flex-col items-end gap-[82px]">
-    <h2 className="text-[#35115F] text-right text-[22px] font-semibold leading-[140%] capitalize w-full">
+    <h2 className="text-[#35115F] text-center text-[22px] font-semibold leading-[140%] capitalize w-full">
       Contact Details
     </h2>
     
@@ -43,24 +43,37 @@ const GoogleMap = () => (
 export default function Contact() {
   const faqItems = [
     {
-      question: "Where is the office?",
-      answer: "Lorem ipsum dolor sit amet consectetur. Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam."
+      question: "What services does LaxmiShree Investments provide?",
+      answer: "We offer Primary Share Investments, Secondary Market Trading, Right Share Investment, Portfolio Management, Market Research & Analysis, and Risk Assessment & Advisory."
     },
     {
-      question: "Where is the office?",
-      answer: "Lorem ipsum dolor sit amet consectetur. Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam."
+      question: "How do I get started as a new investor?",
+      answer: "Simply reach out through our contact form, email, or visit our office. Our team will guide you through account opening, KYC, and investment planning."
     },
     {
-      question: "Where is the office?",
-      answer: "Lorem ipsum dolor sit amet consectetur. Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam.Egestas facilisi magna et non etiam."
+      question: "Can I invest if I am new to the stock market?",
+      answer: "Absolutely. Our experts provide step-by-step guidance, from understanding IPOs and right shares to building your first portfolio."
+    },
+    {
+      question: "How do you decide which investment is right for me?",
+      answer: "We assess your financial goals, risk appetite, and time horizon before recommending a customized investment strategy."
+    },
+    {
+      question: "Do you help with portfolio diversification?",
+      answer: "Yes. We design diversified portfolios across various asset classes to balance risk and return."
+    },
+    {
+      question: "What are the risks of investing?",
+      answer: "All investments carry some risk. Our role is to identify, minimize, and manage risks through expert advisory and research-backed strategies."
     }
   ];
 
   return (
+    <>
     <div className="min-h-screen bg-white">
       <Navbar />
       
-      <div className="flex flex-col items-center gap-[212px] py-[174px] px-4">
+      <div className="flex flex-col items-center gap-[212px] pt-[6.5rem] px-4">
         <div className="w-full max-w-[1297px] flex flex-col items-start gap-[120px]">
           
           <div className="flex flex-col items-start gap-[110px] w-full">
@@ -88,7 +101,10 @@ export default function Contact() {
         </div>
       </div>
       
-      <Footer />
     </div>
+    <div className='mt-[3rem]'>
+    <Footer/>
+    </div>
+    </>
   );
 }

@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar"
 import LogoCarousel from "./sections/Carousel/carousel"
 import MessageFromOurFounderPage from "./sections/FounderMessage/founderMessagePage"
 import InvestmentsSection from "./sections/Investment/investmentSection"
-
+import Footer from "./components/Footer"
 export const runtime = "edge";
 
 export default function Main(){
@@ -21,11 +21,12 @@ export default function Main(){
       </div>
       <ServicesPage/>
       <MessageFromOurFounderPage/>
-      <div data-section="investments">
+      
         <InvestmentsSection />  
-      </div>
+      
       <VisionPage/>
       <ContactCTASection/>
+      <Footer/>
     </div>
   )
 }
