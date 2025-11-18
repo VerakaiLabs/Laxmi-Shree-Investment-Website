@@ -18,7 +18,7 @@ export default function TeamCard({
   return (
     <div
       className={`
-        relative w-[276px] h-[400px] flex-shrink-0 rounded-lg border border-[#A875FF]
+        w-[276px] h-[430px] flex-shrink-0 rounded-lg border border-[#A875FF] flex flex-col
         ${className}
       `}
       style={{
@@ -26,36 +26,35 @@ export default function TeamCard({
       }}
     >
       {/* Image Container */}
-      <div className="absolute left-[11px] top-[12px] w-[254px] h-[318px] flex justify-center items-center rounded-lg  p-1">
-        <img 
-          src={imageUrl} 
-          alt={name}
-          className="w-[246px] h-[306px] object-cover rounded-lg"
-        />
+      <div className="p-[11px] pt-[12px] flex-shrink-0">
+        <div className="w-[254px] h-[318px] flex justify-center items-center rounded-lg p-1">
+          <img 
+            src={imageUrl} 
+            alt={name}
+            className="w-[246px] h-[306px] object-cover rounded-lg"
+          />
+        </div>
       </div>
 
-      {/* Content Container */}
-      <div className="absolute left-[11px] top-[340px] w-[256px] h-[44px] flex justify-between items-end">
-        {/* Text Content */}
-        <div className="flex flex-col items-start gap-1">
-          <h3 className="text-[20px] font-semibold leading-[140%] capitalize bg-gradient-to-b from-[#5E2D91] to-[#5E2D91] bg-clip-text text-transparent">
+      {/* Content Container - Centered with equal padding */}
+      <div className="px-[11px] flex-1 flex justify-between items-center h-[74px]">
+        {/* Text Content - Centered */}
+        <div className="flex flex-col items-start justify-center gap-1 flex-1 pr-2">
+          <h3 className="text-[20px] font-semibold leading-[120%] capitalize bg-gradient-to-b from-[#5E2D91] to-[#5E2D91] bg-clip-text text-transparent break-words">
             {name}
           </h3>
-          
-          <p className="text-[#6B7280] text-[14px] font-medium leading-[140%] capitalize">
+          <p className="text-[#6B7280] text-[14px] font-medium leading-[120%] capitalize break-words">
             {position}
           </p>
-
         </div>
 
-        {/* Social Icons */}
-        <div className="flex items-center gap-1.5">
+        {/* Social Icons - Centered */}
+        <div className="flex items-center gap-1.5 flex-shrink-0">
           {emailUrl && (
             <a 
               href={`mailto:${emailUrl}`}
               className="w-6 h-6 flex items-center justify-center hover:opacity-80 transition-opacity"
             >
-              {/* ...email SVG... */}
               <svg 
                 width="24" 
                 height="24" 
@@ -79,7 +78,6 @@ export default function TeamCard({
               rel="noopener noreferrer"
               className="w-6 h-6 flex items-center justify-center hover:opacity-80 transition-opacity"
             >
-              {/* ...linkedin SVG... */}
               <svg 
                 width="24" 
                 height="24" 
