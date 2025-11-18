@@ -25,77 +25,77 @@ const investments = [
     pdfFileName: "himalayan-solar.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/9D29C6/ffffff?text=Gargang+Upateka",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Gargang Upateka Hydropower",
     description: "Harnessing the power of Nepal's pristine waters, Gargang Upateka Hydropower is committed to providing sustainable and clean energy solutions for the nation's growing energy needs.",
     readMoreUrl: "#",
     pdfFileName: "gargang-upateka-hydropower.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/35115F/ffffff?text=Eidi+Hydropower",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Eidi Hydropower Ltd.",
     description: "Pioneering renewable energy development in Nepal, Eidi Hydropower focuses on sustainable power generation while contributing to local community development and environmental conservation.",
     readMoreUrl: "#",
     pdfFileName: "eidi-hydropower.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/DC9320/ffffff?text=Asian+Batteries",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Asian Batteries Ltd.",
     description: "Leading manufacturer of high-quality automotive and industrial batteries in Nepal, providing reliable power solutions with advanced technology and exceptional durability.",
     readMoreUrl: "#",
     pdfFileName: "asian-batteries.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/5E2D91/ffffff?text=Tenx+Holding",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Tenx Holding Ltd.",
     description: "A diversified investment holding company focused on strategic investments across multiple sectors including technology, real estate, and manufacturing in Nepal's growing economy.",
     readMoreUrl: "#",
     pdfFileName: "tenx-holding.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/9D29C6/ffffff?text=Hotel+Bhadghau",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Hotel Bhadghau and Resort",
     description: "Experience luxury hospitality in the heart of Nepal with world-class amenities, stunning mountain views, and authentic Nepali culture at Hotel Bhadghau and Resort.",
     readMoreUrl: "#",
     pdfFileName: "hotel-bhadghau.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/35115F/ffffff?text=Rupakot+Resort",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Rupakot Resort",
     description: "A premium destination resort offering unparalleled mountain views, luxury accommodations, and authentic cultural experiences in the beautiful landscapes of Nepal.",
     readMoreUrl: "#",
     pdfFileName: "rupakot-resort.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/DC9320/ffffff?text=Aayu+Malun+Khola",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Aayu Malun Khola Hydropower Ltd.",
     description: "Dedicated to sustainable hydroelectric power generation, Aayu Malun Khola Hydropower harnesses Nepal's water resources to provide clean, renewable energy for the nation.",
     readMoreUrl: "#",
     pdfFileName: "aayu-malun-khola.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/5E2D91/ffffff?text=Siddha+Bhoomi",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Siddha Bhoomi Retreat Ltd.",
     description: "A serene wellness retreat center offering holistic healing, meditation, and spiritual rejuvenation in Nepal's tranquil natural environment with traditional therapeutic practices.",
     readMoreUrl: "#",
     pdfFileName: "siddha-bhoomi-retreat.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/9D29C6/ffffff?text=Barahakshetra+Cable",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Barahakshetra Cable Car Ltd.",
     description: "Providing scenic cable car services to one of Nepal's most sacred pilgrimage sites, offering visitors breathtaking aerial views while ensuring safe and comfortable transportation.",
     readMoreUrl: "#",
     pdfFileName: "barahakshetra-cable-car.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/35115F/ffffff?text=Himalayan+Urja",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Himalayan Urja Ltd.",
     description: "Focused on renewable energy solutions and sustainable power generation, Himalayan Urja is committed to meeting Nepal's energy demands through innovative clean technologies.",
     readMoreUrl: "#",
     pdfFileName: "himalayan-urja.pdf"
   },
   {
-    logoUrl: "https://via.placeholder.com/400x300/DC9320/ffffff?text=Ramailo+Likhu",
+    logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
     companyName: "Ramailo Likhu Hydropower Ltd.",
     description: "Developing sustainable hydroelectric projects that contribute to Nepal's energy security while promoting environmental conservation and community development initiatives.",
     readMoreUrl: "#",

@@ -14,28 +14,28 @@ const teamMembers = [
     position: "Chairman & CEO",
     imageUrl: "founders/laxmiprasai.png",
     emailUrl: "aarav@company.com",
-    linkedinUrl: "https://linkedin.com/in/aaravsharma"
+    linkedinUrl: "https://www.linkedin.com/in/laxmi-prasad-prasai-5771a5392/"
   },
   {
     name: "Laxmi Bhattarai",
-    position: "Chief Investment Officer",
+    position: "Director",
     imageUrl: "founders/laxmibhattarai.png",
     emailUrl: "priya@company.com",
-    linkedinUrl: "https://linkedin.com/in/priyasingh"
+    linkedinUrl: "http://linkedin.com/in/laxmi-bhattarai-7665264b"
   },
   {
     name: "Lilamani Pathak",
     position: "MD",
     imageUrl: "founders/lilapathak.png",
     emailUrl: "priya@company.com",
-    linkedinUrl: "https://linkedin.com/in/priyasingh"
+    linkedinUrl: "http://linkedin.com/in/lilamani-pathak-a8a3baa6"
   },
   {
     name: "Sankhar Ghimire",
     position: "MD",
     imageUrl: "founders/sankharghimire.png",
     emailUrl: "priya@company.com",
-    linkedinUrl: "https://linkedin.com/in/priyasingh"
+    linkedinUrl: "http://linkedin.com/in/shankar-ghimire-81b936232"
   }
   // Add more team members as needed
 ];
