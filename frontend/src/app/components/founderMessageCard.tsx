@@ -56,7 +56,7 @@ export default function FounderCard({ founderId = 1, customData }: FounderCardPr
 
                 {/* Founder Info */}
                 <div className="mt-[1rem] md:mt-[1.25rem] lg:mt-[1.5rem] xl:mt-[.2rem] 3xl:mt-[1rem]">
-                    <h4 className="text-[#9D29C6] text-[1.35rem] md:text-[1.45rem] lg:text-[1.55rem] xl:text-[1rem] 3xl:text-[2rem] font-semibold ">
+                    <h4 className="text-[#9D29C6] text-[1.35rem] md:text-[1.45rem] lg:text-[1.55rem] xl:text-[1.3rem] 3xl:text-[2rem] font-semibold ">
                         {founder.name}
                     </h4>
                     <p className="text-[#5E2D91] text-[1rem] md:text-[1.1rem] lg:text-[1.15rem] xl:text-[1rem] 3xl:text-[1.6rem] font-medium">

@@ -41,9 +41,11 @@ export default function TeamCard({
           <h3 className="text-[20px] font-semibold leading-[140%] capitalize bg-gradient-to-b from-[#5E2D91] to-[#5E2D91] bg-clip-text text-transparent">
             {name}
           </h3>
+          
           <p className="text-[#6B7280] text-[14px] font-medium leading-[140%] capitalize">
             {position}
           </p>
+
         </div>
 
         {/* Social Icons */}
