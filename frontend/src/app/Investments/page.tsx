@@ -33,7 +33,7 @@ const investments = [
   },
   {
     logoUrl: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
-    companyName: "Eidi Hydropower Ltd.",
+    companyName: "Idi ltd. Hydropower Ltd.",
     description: "Pioneering renewable energy development in Nepal, Eidi Hydropower focuses on sustainable power generation while contributing to local community development and environmental conservation.",
     readMoreUrl: "#",
     pdfFileName: "eidi-hydropower.pdf"
