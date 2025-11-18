@@ -14,7 +14,7 @@ const teamMembers = [
     linkedinUrl: "https://www.linkedin.com/in/laxmi-prasad-prasai-5771a5392/"
   },
   {
-    name: "Shankar Bahadur Ghimire",
+    name: "Shankar Ghimire",
     position: "MD",
     imageUrl: "founders/sankharghimire.png",
     emailUrl: "priya@company.com",
