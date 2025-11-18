@@ -11,7 +11,7 @@ export const runtime = "edge";
 const teamMembers = [
   {
     name: "Laxmi Prasad Prasai",
-    position: "Chairman & CEO",
+    position: "Chairman",
     imageUrl: "founders/laxmiprasai.png",
     emailUrl: "aarav@company.com",
     linkedinUrl: "https://www.linkedin.com/in/laxmi-prasad-prasai-5771a5392/"
