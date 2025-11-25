@@ -36,8 +36,8 @@ export const metadata: Metadata = {
     "Financial Consultant Nepal"
   ],
   authors: [{ name: "Laxmi Shree Investment" }],
-  creator: "Laxmi Shree Investment",
-  publisher: "Laxmi Shree Investment",
+  creator: "Verakai Labs",
+  publisher: "Verakai Labs",
   robots: {
     index: true,
     follow: true,
@@ -78,7 +78,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* Favicon - these files should be in public/ folder */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/x-icon" href="https://laxmishreeinvestment.com/favicon.ico"/>
   
         <link rel="manifest" href="/site.webmanifest" />
         
