@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://laxmishreeinvestment.com",
-    siteName: "Laxmi Shree Investment",
+    siteName: "Investment and Portfolio Management Nepal | Laxmi Shree Investment",
     title: "Laxmi Shree Investment - Trusted Investment Solutions in Nepal",
     description: "Nepal's leading investment company providing comprehensive financial solutions, portfolio management, and wealth building services. Expert guidance for your financial growth.",
     images: [

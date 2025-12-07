@@ -6,11 +6,10 @@
 
 .carouselTrack {
   display: flex;
-  animation: infinite-scroll 8s linear infinite;
+  animation: infinite-scroll 30s linear infinite;
   width: max-content;
   will-change: transform;
 }
-
 .carouselItem {
   flex-shrink: 0;
   margin: 0 1rem;
