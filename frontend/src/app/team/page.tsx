@@ -36,6 +36,49 @@ const teamMembers = [
   }
 ];
 
+const managementTeam = [
+  {
+    name: "CA Biraj Adhikari",
+    position: "Head of Finance",
+    imageUrl: "management/Biraj_Adhikari.jpg",
+    emailUrl: "john.doe@company.com",
+    linkedinUrl: "https://www.linkedin.com/"
+  },
+  {
+    name: "Bikalpa Prasai",
+    position: "Manager",
+    imageUrl: "management/Bikalpa_Prasai.jpg",
+    emailUrl: "jane.smith@company.com",
+    linkedinUrl: "https://www.linkedin.com/"
+  },
+  {
+    name: "Om Prakash Tamrakar",
+    position: "Account Officer",
+    imageUrl: "management/Om_Prakash.jpg",
+    emailUrl: "michael.johnson@company.com",
+    linkedinUrl: "https://www.linkedin.com/"
+  },
+  {
+    name: "Kushma Dawadi",
+    position: "Admin Officer",
+    imageUrl: "management/Kushma_Dawadi.jpg",
+    emailUrl: "michael.johnson@company.com",
+    linkedinUrl: "https://www.linkedin.com/"
+  }
+];
+
+const companySecretary = [
+  {
+    
+    name: "Advocate Bibek Panta",
+    position: "Company Secretary",
+    imageUrl: "Secretary/Bibek_Panta.jpg",
+    emailUrl: "john.doe@company.com",
+    linkedinUrl: "https://www.linkedin.com/"
+  }
+  
+
+];
 export default function TeamPage() {
   return (
     <>
@@ -71,11 +114,11 @@ export default function TeamPage() {
         </div>
       </section>
 
-      {/* Commented sections for future use */}
-      {/* <section className="px-4 pt-[5rem] md:px-8 lg:px-16">
+      {/* Management Team Section */}
+      <section className="px-4 pt-[5rem] md:px-8 lg:px-16 pb-8">
         <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Management Team</h1>
         <div className="flex flex-wrap justify-center gap-8">
-          {teamMembers.map((member, idx) => (
+          {managementTeam.map((member, idx) => (
             <TeamCard
               key={idx}
               name={member.name}
@@ -87,7 +130,23 @@ export default function TeamPage() {
           ))}
         </div>
       </section>
-      <section className="px-4 pt-[5rem] md:px-8 lg:px-16">
+      <section className="px-4 pt-[5rem] md:px-8 lg:px-16 pb-8">
+        <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Company Secretary</h1>
+        <div className="flex flex-wrap justify-center gap-8">
+          {companySecretary.map((member, idx) => (
+            <TeamCard
+              key={idx}
+              name={member.name}
+              position={member.position}
+              imageUrl={member.imageUrl}
+              emailUrl={member.emailUrl}
+              linkedinUrl={member.linkedinUrl}
+            />
+          ))}
+        </div>
+      </section>
+      {/* Commented section for future use */}
+      {/* <section className="px-4 pt-[5rem] md:px-8 lg:px-16">
         <h1 className="text-3xl font-bold text-center text-[#9D29C6] mb-10">Advisory Board</h1>
         <div className="flex flex-wrap justify-center gap-8">
           {teamMembers.map((member, idx) => (

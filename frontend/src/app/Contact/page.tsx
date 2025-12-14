@@ -13,13 +13,13 @@ const ContactDetails = () => (
     
     <div className="flex flex-col items-center lg:items-start gap-3 md:gap-4 w-full">
       <div className="text-[#9D29C6] text-[1.15rem] md:text-[1.25rem] lg:text-[1.375rem] xl:text-[1.2rem] 3xl:text-[1.5rem] font-medium leading-relaxed text-center lg:text-left">
-        Phone: +977 9812121212
+        Phone: 01-4533311
       </div>
       <div className="text-[#9D29C6] text-[1.15rem] md:text-[1.25rem] lg:text-[1.375rem] xl:text-[1.2rem] 3xl:text-[1.5rem] font-medium leading-relaxed text-center lg:text-left">
-        Email: contact@laxmishree.com
+        Email: laxmishree2005@gmail.com
       </div>
       <div className="text-[#9D29C6] text-[1.15rem] md:text-[1.25rem] lg:text-[1.375rem] xl:text-[1.2rem] 3xl:text-[1.5rem] font-medium leading-relaxed text-center lg:text-left">
-        Whatsapp: +977 9812121212
+        Whatsapp: +977 9851193622
       </div>
     </div>
   </div>
@@ -123,7 +123,7 @@ export default function Contact() {
               </div>
               
               {/* FAQ Section */}
-              <div className="w-full">
+              <div className="w-full [&>div>div]:gap-4 [&>div>div]:md:gap-5 [&>div>div]:lg:gap-6">
                 <FAQ items={faqItems} />
               </div>
             </div>

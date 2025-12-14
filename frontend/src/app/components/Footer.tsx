@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import MainLogo from "../assets/icons/MainLogo.svg";
+import { useState, useEffect } from "react";
 
 export const runtime = "edge";
 
@@ -65,6 +66,27 @@ const WhatsAppIcon = () => (
 );
 
 export default function Footer() {
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    // Get current year in Nepal timezone
+    const getNepalYear = () => {
+      const nepalTime = new Date().toLocaleString("en-US", {
+        timeZone: "Asia/Kathmandu"
+      });
+      return new Date(nepalTime).getFullYear();
+    };
+
+    setCurrentYear(getNepalYear());
+
+    // Update year at midnight Nepal time
+    const checkYear = setInterval(() => {
+      setCurrentYear(getNepalYear());
+    }, 60000); // Check every minute
+
+    return () => clearInterval(checkYear);
+  }, []);
+
   const navigationLinks = [
     { name: "Home", href: "/" },
     { name: "Team", href: "/team" },
@@ -75,8 +97,8 @@ export default function Footer() {
   const contactInfo = [
     {
       icon: <MailIcon />,
-      text: "contact@laxmishreeinvestment.com",
-      href: "mailto:contact@laxmishreeinvestment.com"
+      text: "laxmishree2005@gmail.com",
+      href: "mailto:laxmishree2005@gmail.com"
     },
     {
       icon: <PhoneIcon />,
@@ -156,7 +178,7 @@ Invest smart with Laxmi Shree Investment — your trusted partner in building a 
 
           {/* Copyright */}
           <div className="text-center text-[#421855] text-sm md:text-base lg:text-lg font-medium leading-relaxed">
-            Copyright 2025©️ LaxmiShree Investment. All Rights Reserved
+            Copyright {currentYear}©️ LaxmiShree Investment. All Rights Reserved
           </div>
         </div>
       </div>

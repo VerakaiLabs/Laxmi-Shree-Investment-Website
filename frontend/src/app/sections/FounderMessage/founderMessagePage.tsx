@@ -29,7 +29,7 @@ export default function MessageFromOurFounderPage(){
         }
         return prevIndex + 1;
       });
-    }, 3000); // 3 seconds
+    }, 30000); // 30 seconds
 
     return () => clearInterval(interval);
   }, [founders.length, isAutoPlaying]);

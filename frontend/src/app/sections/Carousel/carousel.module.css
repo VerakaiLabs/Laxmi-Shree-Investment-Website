@@ -6,7 +6,7 @@
 
 .carouselTrack {
   display: flex;
-  animation: infinite-scroll 30s linear infinite;
+  animation: infinite-scroll 10s linear infinite;
   width: max-content;
   will-change: transform;
 }

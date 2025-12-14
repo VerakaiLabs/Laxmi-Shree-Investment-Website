@@ -71,20 +71,10 @@ export default function InvestmentCompanyCard({
                 no-underline w-full
               "
             >
-              Read more
+              Visit
             </a>
             
-            <button
-              onClick={handleDownloadPdf}
-              className="
-                flex px-[13px] py-[7px] justify-center items-center gap-2.5 
-                rounded-[5px] bg-[#4D186F] hover:bg-[#3D0F5A] transition-colors duration-200
-                text-white text-center text-[18px] font-semibold leading-[140%] capitalize
-                w-full border-none cursor-pointer
-              "
-            >
-              Download PDF
-            </button>
+              
           </div>
         </div>
       </div>
