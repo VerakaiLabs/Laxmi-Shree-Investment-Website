@@ -72,7 +72,7 @@ const companySecretary = [
     
     name: "Advocate Bibek Panta",
     position: "Company Secretary",
-    imageUrl: "Secretary/Bibek_Panta.jpg",
+    imageUrl: "secretary/Bibek_Panta.jpg",
     emailUrl: "john.doe@company.com",
     linkedinUrl: "https://www.linkedin.com/"
   }
