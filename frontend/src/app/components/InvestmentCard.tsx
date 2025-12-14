@@ -14,6 +14,7 @@ export default function InvestmentCard({
   className = "" 
 }: InvestmentCardProps) {
   const isPurple = variant === "purple";
+  const isDefaultImage = image.includes("default.svg");
   
   return (
     <div className={`
@@ -28,8 +29,8 @@ export default function InvestmentCard({
         {/* Image */}
         <img
           src={image}
-          alt={title}
-          className="w-full h-36 md:h-44 object-cover rounded"
+          alt=""
+          className={`w-full h-20 md:h-28 object-contain rounded ${isDefaultImage ? "opacity-0" : ""}`}
         />
         
         {/* Content */}

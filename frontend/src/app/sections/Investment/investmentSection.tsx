@@ -21,21 +21,21 @@ const investmentsData: Investment[] = [
     id: 1,
     title: "Barahi Cable Car Ltd.",
     description: "Elevate your journey from Sedi to Sarangkot with breathtaking views! Experience the majestic beauty of Annapurna and the sacred 51 ft Pancha Mukhi Ganesh with our safe, scenic cable car rides.",
-    image: "https://api.builder.io/api/v1/image/assets/TEMP/24168a900ce3df446d4333496333e67a596259e5?width=597",
+    image: "Invested_Company_Logo/default.svg",
     variant: "purple"
   },
   {
     id: 2,
     title: "Sopan Pharmaceuticals",
     description: "Sopan Pharmaceuticals Limited, founded under Sopan Multiple Company Limited by leading NRNs and entrepreneurs, aims to transform healthcare with innovative, high-quality pharmaceutical products.",
-    image: "https://api.builder.io/api/v1/image/assets/TEMP/17ffebedd43c1afee7357d4eb91278be010bc4a6?width=753",
+    image: "Invested_Company_Logo/sopan.jpeg",
     variant: "white"
   },
   {
     id: 3,
     title: "Himalayan Solar Ltd.",
     description: "From humble beginnings to a solar leader, our journey is driven by innovation and sustainability. With advanced technology, we empower communities and businesses with reliable, clean energy solutions.",
-    image: "https://api.builder.io/api/v1/image/assets/TEMP/50114886b0e65df2d798a82cb75468d1da303698?width=597",
+    image: "Invested_Company_Logo/default.svg",
     variant: "purple"
   }
 ];
