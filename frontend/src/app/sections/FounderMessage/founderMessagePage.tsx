@@ -107,7 +107,7 @@ export default function MessageFromOurFounderPage(){
     <section className="w-full px-[1.4rem] py-[2rem]">
       {/* Title */}
       <h1 className="text-center text-[#9D29C6] text-[1.875rem] md:text-[2.25rem] font-semibold leading-tight capitalize mb-[2rem] 3xl:text-[3rem]">
-        Message From Our Founders
+        About Our Founders
       </h1>
 
       {/* Sliding Container */}

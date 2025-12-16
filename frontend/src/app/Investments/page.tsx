@@ -26,14 +26,14 @@ const investments = [
   },
   {
     logoUrl: "Invested_Company_Logo/garjang.jpeg",
-    companyName: "Gargang Upateka Hydropower",
+    companyName: "Garjang Upatyako Hydropower Ltd",
     description: "Harnessing the power of Nepal's pristine waters, Gargang Upateka Hydropower is committed to providing sustainable and clean energy solutions for the nation's growing energy needs.",
     readMoreUrl: "https://www.facebook.com/garjanghydropower/",
     pdfFileName: "gargang-upateka-hydropower.pdf"
   },
   {
     logoUrl: "Invested_Company_Logo/default.svg",
-    companyName: "Idi ltd. Hydropower Ltd.",
+    companyName: "Idi Hydropower Company Ltd.",
     description: "Pioneering renewable energy development in Nepal, Eidi Hydropower focuses on sustainable power generation while contributing to local community development and environmental conservation.",
     readMoreUrl: "#",
     pdfFileName: "eidi-hydropower.pdf"
@@ -54,7 +54,7 @@ const investments = [
   },
   {
     logoUrl: "Invested_Company_Logo/hotelbhadgaun.jpeg",
-    companyName: "Hotel Bhadghau and Resort",
+    companyName: "Hotel Bhadgaon and resort Ltd.",
     description: "Experience luxury hospitality in the heart of Nepal with world-class amenities, stunning mountain views, and authentic Nepali culture at Hotel Bhadghau and Resort.",
     readMoreUrl: "https://www.hotelbhadgaon.com/",
     pdfFileName: "hotel-bhadghau.pdf"
