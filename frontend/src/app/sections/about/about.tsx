@@ -18,10 +18,10 @@ export default function AboutUs() {
             <div className={`${styles.about_content_overlay} px-[1.4rem] md:p-[3rem] lg:p-[4rem] xl:px-[10rem] xl:p-[1.5rem] 3xl:px-[12rem] 3xl:py-[.8rem] flex flex-col items-center lg:flex lg:flex-col lg:items-center`}>
               <div className={`${styles.about_text_container} w-full text-[#421855] text-[1.15rem] md:text-[1.25rem] lg:text-[1.375rem] xl:text-[1.2rem] 3xl:text-[1.5rem] font-medium leading-relaxed text-justify capitalize space-y-[1.5rem] xl:flex xl:flex-col xl:items-center lg:flex lg:flex-col lg:items-center 3xl:space-y-[2rem] 3xl:leading-[170%]`}>
                 <p className="">
-                  Welcome to Laxmi Shree Investment Pvt. Ltd. (LSI) – a diversified investment company committed to accelerating Nepal&apos;s development through strategic investments. We are a leading private investment group driving sustainable growth across multiple sectors. Our approach follows a simple philosophy: Learn, Earn, Invest, Grow, and Develop – the foundation of our company&apos;s success.
+                    Welcome to Laxmi Shree Investment Pvt. Ltd. (LSI) – a diversified investment company committed to accelerating Nepal's development through strategic investments. We are a leading private investment group driving sustainable growth across multiple sectors. Our approach follows a simple philosophy: Learn, Earn, Invest, Grow, and Develop – the foundation of our company's success.
                 </p>
                 <p className="">
-                  Laxmi Shree Investment brings together local insight and global standards to turn opportunities into thriving ventures. Whether you&apos;re an investor seeking high-impact projects or a partner with a vision, you&apos;ve come to the right place. Join us in building prosperity – explore our sectors or contact our team to discover how we can collaborate on Nepal&apos;s next success story.
+                  Laxmi Shree Investment brings together local insight and global standards to turn opportunities into thriving ventures. Whether you're an investor seeking high-impact projects or a partner with a vision, you've come to the right place. Join us in building prosperity – explore our sectors or contact our team to discover how we can collaborate on Nepal's next success story.
                 </p>
               </div>
             </div>
